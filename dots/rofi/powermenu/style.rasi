@@ -23,7 +23,7 @@
  *    Import Elements
 -------------------------------------------------------------------------------*/
 
-@import 			"/colors.rasi"
+@import                     "/colors.rasi"
 
 
 
@@ -50,7 +50,7 @@ window {
 
     /* properties for all widgets */
     enabled:                     true;
-    border: 			 3px;
+    border:                      3px;
     border-color:                @background-alt;
     cursor:                      "default";
     background-color:            @background;
@@ -77,7 +77,7 @@ mainbox {
 -------------------------------------------------------------------------------*/
 
 inputbar {
-    location:			 center;
+    location:                    center;
     padding:                     8px;
     border-radius:               10px;
     border: 2px solid;
@@ -102,7 +102,7 @@ message {
     padding:                     10px;
     border-radius:               10px;
     border: 2px solid;
-    border-color: @red;
+    border-color: @orange;
     background-color:            transparent;
     text-color:                  @foreground;
 }
